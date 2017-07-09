@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4556F3E1F11F1380031CE92 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4556F3D1F11F1380031CE92 /* NameViewController.swift */; };
+		D4556F411F1200E30031CE92 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4556F3F1F1200E30031CE92 /* CustomCollectionViewCell.swift */; };
+		D4556F421F1200E30031CE92 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4556F401F1200E30031CE92 /* CustomCollectionViewCell.xib */; };
+		D4AD14D81EED1DE80014DA3D /* HIRAWATASHIHAMITA_TP_V.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD14D71EED1DE80014DA3D /* HIRAWATASHIHAMITA_TP_V.jpg */; };
+		D4AD14DC1EED1F4A0014DA3D /* 628880.origidkgm.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AD14DB1EED1F4A0014DA3D /* 628880.origidkgm.png */; };
 		D4F063BB1EECDB8A00AAD634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F063BA1EECDB8A00AAD634 /* AppDelegate.swift */; };
 		D4F063BD1EECDB8A00AAD634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F063BC1EECDB8A00AAD634 /* ViewController.swift */; };
 		D4F063C01EECDB8A00AAD634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F063BE1EECDB8A00AAD634 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4556F3D1F11F1380031CE92 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		D4556F3F1F1200E30031CE92 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4556F401F1200E30031CE92 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		D4AD14D71EED1DE80014DA3D /* HIRAWATASHIHAMITA_TP_V.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HIRAWATASHIHAMITA_TP_V.jpg; sourceTree = "<group>"; };
+		D4AD14DB1EED1F4A0014DA3D /* 628880.origidkgm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 628880.origidkgm.png; sourceTree = "<group>"; };
 		D4F063B71EECDB8A00AAD634 /* PhotoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F063BA1EECDB8A00AAD634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F063BC1EECDB8A00AAD634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +50,8 @@
 			children = (
 				D4F063B91EECDB8A00AAD634 /* PhotoMaster */,
 				D4F063B81EECDB8A00AAD634 /* Products */,
+				D4AD14D71EED1DE80014DA3D /* HIRAWATASHIHAMITA_TP_V.jpg */,
+				D4AD14DB1EED1F4A0014DA3D /* 628880.origidkgm.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +72,9 @@
 				D4F063C11EECDB8A00AAD634 /* Assets.xcassets */,
 				D4F063C31EECDB8A00AAD634 /* LaunchScreen.storyboard */,
 				D4F063C61EECDB8A00AAD634 /* Info.plist */,
+				D4556F3D1F11F1380031CE92 /* NameViewController.swift */,
+				D4556F3F1F1200E30031CE92 /* CustomCollectionViewCell.swift */,
+				D4556F401F1200E30031CE92 /* CustomCollectionViewCell.xib */,
 			);
 			path = PhotoMaster;
 			sourceTree = "<group>";
@@ -124,6 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4F063C51EECDB8A00AAD634 /* LaunchScreen.storyboard in Resources */,
+				D4556F421F1200E30031CE92 /* CustomCollectionViewCell.xib in Resources */,
+				D4AD14D81EED1DE80014DA3D /* HIRAWATASHIHAMITA_TP_V.jpg in Resources */,
+				D4AD14DC1EED1F4A0014DA3D /* 628880.origidkgm.png in Resources */,
 				D4F063C21EECDB8A00AAD634 /* Assets.xcassets in Resources */,
 				D4F063C01EECDB8A00AAD634 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +156,8 @@
 			files = (
 				D4F063BD1EECDB8A00AAD634 /* ViewController.swift in Sources */,
 				D4F063BB1EECDB8A00AAD634 /* AppDelegate.swift in Sources */,
+				D4556F3E1F11F1380031CE92 /* NameViewController.swift in Sources */,
+				D4556F411F1200E30031CE92 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +319,7 @@
 				D4F063CB1EECDB8A00AAD634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
